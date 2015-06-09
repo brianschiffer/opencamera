@@ -1,0 +1,9 @@
+(module STITCH_VIA (layer F.Cu) (tedit 5576592A)
+  (fp_text reference "" (at 0 0.5) (layer Eco2.User) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "" (at 0 -0.5) (layer Eco2.User) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" thru_hole circle (at 0 0) (size 0.6858 0.6858) (drill 0.3302) (layers *.Cu))
+)

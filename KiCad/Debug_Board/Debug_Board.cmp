@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by Cvpcb (2015-04-19 BZR 5613)-product   date = 6/8/2015 8:57:55 PM
+
+BeginCmp
+TimeStamp = /5574923E/55749249;
+Reference = P1;
+ValeurCmp = CONN_LEFT_TOP;
+IdModule  = OpenCamera:DF17_60_RECEPTACLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /5574923E/55749341;
+Reference = P2;
+ValeurCmp = CONN_RIGHT_TOP;
+IdModule  = OpenCamera:DF17_60_RECEPTACLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /5574923E/557492B9;
+Reference = P3;
+ValeurCmp = CONN_LEFT_BOTTOM;
+IdModule  = OpenCamera:DF17_60_HEADER;
+EndCmp
+
+BeginCmp
+TimeStamp = /5574923E/557492FE;
+Reference = P4;
+ValeurCmp = CONN_RIGHT_BOTTOM;
+IdModule  = OpenCamera:DF17_60_HEADER;
+EndCmp
+
+BeginCmp
+TimeStamp = /5576DE0B;
+Reference = P5;
+ValeurCmp = CONN_02X30;
+IdModule  = OpenCamera:CONN60_RIGHT_ANGLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /557820D4;
+Reference = P6;
+ValeurCmp = CONN_02X01;
+IdModule  = OpenCamera:CONN2_RIGHT_ANGLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /5576CCCE;
+Reference = P7;
+ValeurCmp = CONN_02X30;
+IdModule  = OpenCamera:CONN60_RIGHT_ANGLE;
+EndCmp
+
+EndListe
