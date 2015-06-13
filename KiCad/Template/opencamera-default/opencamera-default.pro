@@ -1,4 +1,4 @@
-update=6/7/2015 12:34:13 PM
+update=6/13/2015 9:30:11 AM
 version=1
 last_client=kicad
 [cvpcb]
@@ -37,8 +37,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../Libraries
@@ -74,3 +72,5 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=OpenCamera
+[general]
+version=1
