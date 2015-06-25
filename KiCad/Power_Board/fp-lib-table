@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name OpenCamera)(type KiCad)(uri C:\Users\Brian\Documents\GitHub\opencamera\KiCad\Libraries\OpenCamera.pretty)(options "")(descr ""))
+)

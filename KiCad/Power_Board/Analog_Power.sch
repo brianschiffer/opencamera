@@ -1,0 +1,158 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:OpenCamera
+LIBS:Power_Board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title "Analog Power"
+Date "Wednesday, June 24, 2015"
+Rev "1.0"
+Comp "Open Camera Project"
+Comment1 "Author: Brian Schiffer"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ADP5070 U?
+U 1 1 558C56FD
+P 6750 3950
+F 0 "U?" H 6750 4900 60  0000 C CNN
+F 1 "ADP5070" H 6750 4800 60  0000 C CNN
+F 2 "" H 6750 3950 60  0000 C CNN
+F 3 "" H 6750 3950 60  0000 C CNN
+	1    6750 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADP3335_CSP U?
+U 1 1 558C5745
+P 4350 2950
+F 0 "U?" H 4350 3500 60  0000 C CNN
+F 1 "ADP3335_CSP" H 4350 2400 60  0000 C CNN
+F 2 "" H 4350 2950 60  0000 C CNN
+F 3 "" H 4350 2950 60  0000 C CNN
+	1    4350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPS63030 U?
+U 1 1 558C581C
+P 1750 2850
+F 0 "U?" H 1750 3200 60  0000 C CNN
+F 1 "TPS63030" H 1750 2400 60  0000 C CNN
+F 2 "" H 1750 2850 60  0000 C CNN
+F 3 "" H 1750 2850 60  0000 C CNN
+	1    1750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CS30 U?
+U 1 1 558C588A
+P 6100 1400
+F 0 "U?" H 6100 1700 60  0000 C CNN
+F 1 "CS30" H 6100 1600 60  0000 C CNN
+F 2 "" H 6100 1400 60  0000 C CNN
+F 3 "" H 6100 1400 60  0000 C CNN
+	1    6100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LT8570 U?
+U 1 1 558C5913
+P 7800 1300
+F 0 "U?" H 7800 1350 60  0000 C CNN
+F 1 "LT8570" H 7800 1250 60  0000 C CNN
+F 2 "" H 7800 1300 60  0000 C CNN
+F 3 "" H 7800 1300 60  0000 C CNN
+	1    7800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CS30 U?
+U 1 1 558C5AE4
+P 8450 4100
+F 0 "U?" H 8450 4400 60  0000 C CNN
+F 1 "CS30" H 8450 4300 60  0000 C CNN
+F 2 "" H 8450 4100 60  0000 C CNN
+F 3 "" H 8450 4100 60  0000 C CNN
+	1    8450 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CS30 U?
+U 1 1 558C5B80
+P 3050 2400
+F 0 "U?" H 3050 2700 60  0000 C CNN
+F 1 "CS30" H 3050 2600 60  0000 C CNN
+F 2 "" H 3050 2400 60  0000 C CNN
+F 3 "" H 3050 2400 60  0000 C CNN
+	1    3050 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADP7142_CSP U?
+U 1 1 558C5C97
+P 10250 3100
+F 0 "U?" H 10250 3400 60  0000 C CNN
+F 1 "ADP7142_CSP" H 10250 2800 60  0000 C CNN
+F 2 "" H 10250 3100 60  0000 C CNN
+F 3 "" H 10250 3100 60  0000 C CNN
+	1    10250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADP7182_CSP U?
+U 1 1 558C5CEE
+P 10200 4400
+F 0 "U?" H 10200 4800 60  0000 C CNN
+F 1 "ADP7182_CSP" H 10200 4000 60  0000 C CNN
+F 2 "" H 10200 4400 60  0000 C CNN
+F 3 "" H 10200 4400 60  0000 C CNN
+	1    10200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CS30 U?
+U 1 1 558C75E1
+P 8150 2900
+F 0 "U?" H 8150 3200 60  0000 C CNN
+F 1 "CS30" H 8150 3100 60  0000 C CNN
+F 2 "" H 8150 2900 60  0000 C CNN
+F 3 "" H 8150 2900 60  0000 C CNN
+	1    8150 2900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
