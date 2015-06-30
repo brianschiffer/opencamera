@@ -1,0 +1,2034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/Brian/Documents/GitHub/opencamera/KiCad/Power_Board/Power_Board.sch</source>
+    <date>6/29/2015 8:40:49 PM</date>
+    <tool>Eeschema (2015-04-19 BZR 5613)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Power Board</title>
+        <company>Open Camera Project</company>
+        <rev>1.0</rev>
+        <date>Monday, June 29, 2015</date>
+        <source>Power_Board.sch</source>
+        <comment number="1" value="Author: Brian Schiffer"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/connectors/" tstamps="/5574923E/">
+      <title_block>
+        <title>Board-Board Connectors</title>
+        <company>Open Camera Project</company>
+        <rev>1.1</rev>
+        <date>Saturday, June 13, 2015</date>
+        <source>connectors.sch</source>
+        <comment number="1" value="Author: Brian Schiffer"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Digital_Power/" tstamps="/558C2B00/">
+      <title_block>
+        <title>Digital Power</title>
+        <company>Open Camera Project</company>
+        <rev>1.0</rev>
+        <date>Saturday, June 27, 2015</date>
+        <source>Digital_Power.sch</source>
+        <comment number="1" value="Author: Brian Schiffer"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Analog_Power/" tstamps="/558C33EF/">
+      <title_block>
+        <title>Analog Power</title>
+        <company>Open Camera Project</company>
+        <rev>1.0</rev>
+        <date>Saturday, June 27, 2015</date>
+        <source>Analog_Power.sch</source>
+        <comment number="1" value="Author: Brian Schiffer"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>DAC7578</value>
+      <libsource lib="OpenCamera" part="DAC7578"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558C6323</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>DAC7578</value>
+      <libsource lib="OpenCamera" part="DAC7578"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558C6430</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AD1583</value>
+      <libsource lib="OpenCamera" part="AD1583"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>558C702A</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55966CD5</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55968860</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5596BBE9</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55974BBE</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55974CEA</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55989977</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5598A6DA</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5598BC9B</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5598BCA1</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55923B68</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55924818</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5592492B</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55924A3A</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55924B73</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55924C8C</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55928CD4</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5592AC9F</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55932134</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_LEFT_TOP</value>
+      <libsource lib="conn" part="CONN_02X31"/>
+      <sheetpath names="/connectors/" tstamps="/5574923E/"/>
+      <tstamp>557C3923</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_LEFT_BOTTOM</value>
+      <libsource lib="conn" part="CONN_02X31"/>
+      <sheetpath names="/connectors/" tstamps="/5574923E/"/>
+      <tstamp>557C3BC1</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_RIGHT_BOTTOM</value>
+      <libsource lib="conn" part="CONN_02X31"/>
+      <sheetpath names="/connectors/" tstamps="/5574923E/"/>
+      <tstamp>557C4BF1</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_RIGHT_TOP</value>
+      <libsource lib="conn" part="CONN_02X31"/>
+      <sheetpath names="/connectors/" tstamps="/5574923E/"/>
+      <tstamp>557C4C8A</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>TPS63030</value>
+      <libsource lib="OpenCamera" part="TPS63030"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558C531E</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>3.3uH</value>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F29BF</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F305E</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F31D1</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F33F4</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1.8M</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F3547</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>200k</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F359B</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>10uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F48C4</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>0</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F62D1</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_02X01</value>
+      <libsource lib="conn" part="CONN_02X01"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F648D</tstamp>
+    </comp>
+    <comp ref="TP11">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F6D01</tstamp>
+    </comp>
+    <comp ref="TP14">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F6F2F</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>TPS63030</value>
+      <libsource lib="OpenCamera" part="TPS63030"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F76F8</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>3.3uH</value>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F76FE</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F7704</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F770A</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F7710</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1.2M</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F7716</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>210k</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F771C</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>10uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F7740</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>0</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F7765</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_02X01</value>
+      <libsource lib="conn" part="CONN_02X01"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F776C</tstamp>
+    </comp>
+    <comp ref="TP12">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F7774</tstamp>
+    </comp>
+    <comp ref="TP15">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F777A</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TPS63030</value>
+      <libsource lib="OpenCamera" part="TPS63030"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F79D0</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>3.3uH</value>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F79D6</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F79DC</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F79E2</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F79E8</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>520k</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F79EE</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>200k</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F79F4</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>10uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F7A18</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>0</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F7A3D</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_02X01</value>
+      <libsource lib="conn" part="CONN_02X01"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F7A44</tstamp>
+    </comp>
+    <comp ref="TP10">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F7A4C</tstamp>
+    </comp>
+    <comp ref="TP13">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/Digital_Power/" tstamps="/558C2B00/"/>
+      <tstamp>558F7A52</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>ADP3335_CSP</value>
+      <libsource lib="OpenCamera" part="ADP3335_CSP"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>558C5745</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>ADP7142_CSP</value>
+      <libsource lib="OpenCamera" part="ADP7142_CSP"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>558C5C97</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>ADP7182_CSP</value>
+      <libsource lib="OpenCamera" part="ADP7182_CSP"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>558C5CEE</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>TPS63030</value>
+      <libsource lib="OpenCamera" part="TPS63030"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55900D93</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>3.3uH</value>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55900D9A</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>10uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55900DA1</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>0.1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55900DA8</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>10uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55900DAF</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1.8M</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55900DB6</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>180k</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55900DBD</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>10uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55900DE2</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>0</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55900E08</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>CONN_02X01</value>
+      <libsource lib="conn" part="CONN_02X01"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55900E10</tstamp>
+    </comp>
+    <comp ref="TP16">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55900E19</tstamp>
+    </comp>
+    <comp ref="TP19">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55900E20</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>ADP5070</value>
+      <libsource lib="OpenCamera" part="ADP5070"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>558C56FD</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>1nF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5590356A</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>10uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>559036EC</tstamp>
+    </comp>
+    <comp ref="TP22">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55904EB9</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>0</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5590514B</tstamp>
+    </comp>
+    <comp ref="TP23">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>559056BA</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>5.6k</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55907519</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>47nF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55907573</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5590762C</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>10uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5590788A</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>12k</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55907AA1</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>47nF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55907B36</tstamp>
+    </comp>
+    <comp ref="L7">
+      <value>3.3uH</value>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55907CA0</tstamp>
+    </comp>
+    <comp ref="L6">
+      <value>6.8uH</value>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55907D78</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>DFLS240</value>
+      <libsource lib="device" part="D_Schottky_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55907FA3</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>DFLS240</value>
+      <libsource lib="device" part="D_Schottky_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>559083A5</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>2.15M</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>559086D5</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>113k</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55908C11</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55908FF8</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>100k</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5590911D</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>2.1M</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55909300</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>10uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55909A1B</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>10uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55909D25</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55909F6D</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>2.2uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5590A3E0</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_02X01</value>
+      <libsource lib="conn" part="CONN_02X01"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5590C552</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>20k</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5591EC2A</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>1k</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5591EFFE</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5591F07A</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5591F310</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>2.2uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5591F6C6</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>1nF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5591F919</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>52.3k</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>559225CE</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>5.9k</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55922664</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>47uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55922700</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>59k</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55922B33</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>2.2uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55922D88</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>MAX152x</value>
+      <libsource lib="OpenCamera" part="MAX152x"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5592BA53</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>47uH</value>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5592D18B</tstamp>
+    </comp>
+    <comp ref="P10">
+      <value>CONN_02X01</value>
+      <libsource lib="conn" part="CONN_02X01"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5592BE3E</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRLL024NQ</value>
+      <libsource lib="device" part="Q_NMOS_GDSD"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5592DB19</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N5261</value>
+      <libsource lib="device" part="D_Schottky_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5592DF1A</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <libsource lib="device" part="D_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5592F334</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>50k</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5592F8DA</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>300k</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>5592FB00</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>20pF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55931B0B</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>55931E2A</tstamp>
+    </comp>
+    <comp ref="TP17">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>558FA43E</tstamp>
+    </comp>
+    <comp ref="TP18">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>558FAA1B</tstamp>
+    </comp>
+    <comp ref="TP20">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>558FB353</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>0</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>558FB359</tstamp>
+    </comp>
+    <comp ref="TP21">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>558FB360</tstamp>
+    </comp>
+    <comp ref="TP25">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>558FC563</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>0</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>558FC569</tstamp>
+    </comp>
+    <comp ref="TP27">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>558FC570</tstamp>
+    </comp>
+    <comp ref="TP24">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>558FC998</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>0</value>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>558FC99E</tstamp>
+    </comp>
+    <comp ref="TP26">
+      <value>Test_Point</value>
+      <libsource lib="OpenCamera" part="Test_Point"/>
+      <sheetpath names="/Analog_Power/" tstamps="/558C33EF/"/>
+      <tstamp>558FC9A5</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky_Small">
+      <description>Diode Schottky</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Small">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR_SMALL">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NMOS_GDSD">
+      <description>Transistor N-MOSFET, collector connected to mounting plane (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="openCol"/>
+        <pin num="3" name="S" type="openEm"/>
+        <pin num="4" name="D" type="openCol"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_Small">
+      <description>Resistor</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X01">
+      <footprints>
+        <fp>Pin_Header_Straight_2X01</fp>
+        <fp>Pin_Header_Angled_2X01</fp>
+        <fp>Socket_Strip_Straight_2X01</fp>
+        <fp>Socket_Strip_Angled_2X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X31">
+      <footprints>
+        <fp>Pin_Header_Straight_2X31</fp>
+        <fp>Pin_Header_Angled_2X31</fp>
+        <fp>Socket_Strip_Straight_2X31</fp>
+        <fp>Socket_Strip_Angled_2X31</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X31</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+        <pin num="25" name="P25" type="passive"/>
+        <pin num="26" name="P26" type="passive"/>
+        <pin num="27" name="P27" type="passive"/>
+        <pin num="28" name="P28" type="passive"/>
+        <pin num="29" name="P29" type="passive"/>
+        <pin num="30" name="P30" type="passive"/>
+        <pin num="31" name="P31" type="passive"/>
+        <pin num="32" name="P32" type="passive"/>
+        <pin num="33" name="P33" type="passive"/>
+        <pin num="34" name="P34" type="passive"/>
+        <pin num="35" name="P35" type="passive"/>
+        <pin num="36" name="P36" type="passive"/>
+        <pin num="37" name="P37" type="passive"/>
+        <pin num="38" name="P38" type="passive"/>
+        <pin num="39" name="P39" type="passive"/>
+        <pin num="40" name="P40" type="passive"/>
+        <pin num="41" name="P41" type="passive"/>
+        <pin num="42" name="P42" type="passive"/>
+        <pin num="43" name="P43" type="passive"/>
+        <pin num="44" name="P44" type="passive"/>
+        <pin num="45" name="P45" type="passive"/>
+        <pin num="46" name="P46" type="passive"/>
+        <pin num="47" name="P47" type="passive"/>
+        <pin num="48" name="P48" type="passive"/>
+        <pin num="49" name="P49" type="passive"/>
+        <pin num="50" name="P50" type="passive"/>
+        <pin num="51" name="P51" type="passive"/>
+        <pin num="52" name="P52" type="passive"/>
+        <pin num="53" name="P53" type="passive"/>
+        <pin num="54" name="P54" type="passive"/>
+        <pin num="55" name="P55" type="passive"/>
+        <pin num="56" name="P56" type="passive"/>
+        <pin num="57" name="P57" type="passive"/>
+        <pin num="58" name="P58" type="passive"/>
+        <pin num="59" name="P59" type="passive"/>
+        <pin num="60" name="P60" type="passive"/>
+        <pin num="61" name="P61" type="passive"/>
+        <pin num="62" name="P62" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCamera" part="AD1583">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD1583</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vout" type="input"/>
+        <pin num="2" name="Gnd" type="input"/>
+        <pin num="3" name="Vin" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCamera" part="ADP3335_CSP">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADP3335_CSP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vout" type="input"/>
+        <pin num="2" name="Vout" type="input"/>
+        <pin num="3" name="Vout" type="input"/>
+        <pin num="4" name="Gnd" type="input"/>
+        <pin num="5" name="NR" type="input"/>
+        <pin num="6" name="EN" type="input"/>
+        <pin num="7" name="Vin" type="input"/>
+        <pin num="8" name="Vin" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCamera" part="ADP5070">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADP5070</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INBK" type="input"/>
+        <pin num="2" name="SYNC/FREQ" type="input"/>
+        <pin num="3" name="SEQ" type="input"/>
+        <pin num="4" name="SLEW" type="input"/>
+        <pin num="5" name="FB1" type="input"/>
+        <pin num="6" name="COMP1" type="input"/>
+        <pin num="7" name="EN1" type="input"/>
+        <pin num="8" name="SS" type="input"/>
+        <pin num="9" name="EN2" type="input"/>
+        <pin num="10" name="COMP2" type="input"/>
+        <pin num="11" name="FB2" type="input"/>
+        <pin num="12" name="VRef" type="input"/>
+        <pin num="13" name="AGnd" type="input"/>
+        <pin num="14" name="Vreg" type="input"/>
+        <pin num="15" name="PVin1" type="input"/>
+        <pin num="16" name="PVinSys" type="input"/>
+        <pin num="17" name="PVin2" type="input"/>
+        <pin num="18" name="SW2" type="input"/>
+        <pin num="19" name="PGnd" type="input"/>
+        <pin num="20" name="SW1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCamera" part="ADP7142_CSP">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADP7142_CSP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vout" type="input"/>
+        <pin num="2" name="SENSE/ADJ" type="input"/>
+        <pin num="3" name="Gnd" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="SS" type="input"/>
+        <pin num="6" name="Vin" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCamera" part="ADP7182_CSP">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADP7182_CSP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vout" type="input"/>
+        <pin num="2" name="Vout" type="input"/>
+        <pin num="3" name="SENSE/ADJ" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="6" name="Gnd" type="input"/>
+        <pin num="7" name="Vin" type="input"/>
+        <pin num="8" name="Vin" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCamera" part="DAC7578">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DAC7578</field>
+      </fields>
+      <pins>
+        <pin num="2" name="AVdd" type="input"/>
+        <pin num="3" name="VoutA" type="input"/>
+        <pin num="4" name="VoutC" type="input"/>
+        <pin num="5" name="VoutE" type="input"/>
+        <pin num="6" name="VoutG" type="input"/>
+        <pin num="8" name="VRef" type="input"/>
+        <pin num="9" name="RSTSEL" type="input"/>
+        <pin num="10" name="ADDR1" type="input"/>
+        <pin num="11" name="ADDR0" type="input"/>
+        <pin num="12" name="_CLR_" type="input"/>
+        <pin num="13" name="VoutH" type="input"/>
+        <pin num="14" name="VoutF" type="input"/>
+        <pin num="15" name="VoutD" type="input"/>
+        <pin num="16" name="VoutB" type="input"/>
+        <pin num="17" name="Gnd" type="input"/>
+        <pin num="19" name="SDA" type="input"/>
+        <pin num="20" name="SCL" type="input"/>
+        <pin num="21" name="TWOC" type="input"/>
+        <pin num="22" name="_LDAC_" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCamera" part="MAX152x">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX152x</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Gnd" type="input"/>
+        <pin num="2" name="FB" type="input"/>
+        <pin num="3" name="SET" type="input"/>
+        <pin num="4" name="SHDN" type="input"/>
+        <pin num="5" name="EXT" type="input"/>
+        <pin num="6" name="Vcc" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCamera" part="TPS63030">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS63030</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="input"/>
+        <pin num="2" name="L2" type="input"/>
+        <pin num="3" name="PGND" type="input"/>
+        <pin num="4" name="L1" type="input"/>
+        <pin num="5" name="VIN" type="input"/>
+        <pin num="6" name="EN" type="input"/>
+        <pin num="7" name="PS/SYNC" type="input"/>
+        <pin num="8" name="VINA" type="input"/>
+        <pin num="9" name="GND" type="input"/>
+        <pin num="10" name="FB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCamera" part="Test_Point">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">Test_Point</field>
+      </fields>
+      <pins>
+        <pin num="~" name="~" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\kicad-winbuilder-3.4\kicad\share\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\kicad-winbuilder-3.4\kicad\share\library\conn.lib</uri>
+    </library>
+    <library logical="OpenCamera">
+      <uri>C:\Users\Brian\Documents\GitHub\opencamera\KiCad\Libraries\OpenCamera.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/connectors/L6">
+      <node ref="P1" pin="12"/>
+      <node ref="U3" pin="20"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="20"/>
+      <node ref="P3" pin="11"/>
+    </net>
+    <net code="2" name="/Vref_3V">
+      <node ref="U3" pin="8"/>
+      <node ref="U2" pin="8"/>
+      <node ref="TP9" pin="~"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="3" name="/connectors/L5">
+      <node ref="R1" pin="2"/>
+      <node ref="U3" pin="19"/>
+      <node ref="P3" pin="9"/>
+      <node ref="U2" pin="19"/>
+      <node ref="P1" pin="10"/>
+    </net>
+    <net code="4" name="/connectors/R15">
+      <node ref="P4" pin="30"/>
+      <node ref="P2" pin="29"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="5" name="/connectors/L1">
+      <node ref="P5" pin="1"/>
+      <node ref="P6" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="P7" pin="1"/>
+      <node ref="P9" pin="1"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="6" name="/connectors/R20">
+      <node ref="P2" pin="39"/>
+      <node ref="U3" pin="13"/>
+      <node ref="P4" pin="40"/>
+    </net>
+    <net code="7" name="/connectors/R19">
+      <node ref="U3" pin="6"/>
+      <node ref="P2" pin="37"/>
+      <node ref="P4" pin="38"/>
+    </net>
+    <net code="8" name="/connectors/R18">
+      <node ref="P2" pin="35"/>
+      <node ref="P4" pin="36"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="9" name="/connectors/R17">
+      <node ref="P2" pin="33"/>
+      <node ref="U3" pin="5"/>
+      <node ref="P4" pin="34"/>
+    </net>
+    <net code="10" name="/connectors/R16">
+      <node ref="P4" pin="32"/>
+      <node ref="P2" pin="31"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="11" name="/connectors/R14">
+      <node ref="P2" pin="27"/>
+      <node ref="P4" pin="28"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="12" name="/connectors/R13">
+      <node ref="P4" pin="26"/>
+      <node ref="P2" pin="25"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="13" name="/connectors/R12">
+      <node ref="U2" pin="13"/>
+      <node ref="P2" pin="23"/>
+      <node ref="P4" pin="24"/>
+    </net>
+    <net code="14" name="/connectors/R11">
+      <node ref="P4" pin="22"/>
+      <node ref="P2" pin="21"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="15" name="/connectors/R10">
+      <node ref="P4" pin="20"/>
+      <node ref="U2" pin="14"/>
+      <node ref="P2" pin="19"/>
+    </net>
+    <net code="16" name="/connectors/R9">
+      <node ref="P2" pin="17"/>
+      <node ref="P4" pin="18"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="17" name="/connectors/R8">
+      <node ref="P2" pin="15"/>
+      <node ref="U2" pin="15"/>
+      <node ref="P4" pin="16"/>
+    </net>
+    <net code="18" name="/connectors/R7">
+      <node ref="P4" pin="14"/>
+      <node ref="U2" pin="4"/>
+      <node ref="P2" pin="13"/>
+    </net>
+    <net code="19" name="/connectors/R6">
+      <node ref="U2" pin="16"/>
+      <node ref="P2" pin="11"/>
+      <node ref="P4" pin="12"/>
+    </net>
+    <net code="20" name="/connectors/R5">
+      <node ref="P2" pin="9"/>
+      <node ref="P4" pin="10"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="21" name="/Analog_Power/5Va">
+      <node ref="P4" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R30" pin="1"/>
+      <node ref="TP23" pin="~"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U3" pin="12"/>
+      <node ref="P8" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="P2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="P10" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="TP5" pin="~"/>
+    </net>
+    <net code="22" name="/Analog_Power/-15Va">
+      <node ref="P4" pin="6"/>
+      <node ref="TP7" pin="~"/>
+      <node ref="TP27" pin="~"/>
+      <node ref="R32" pin="1"/>
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="23" name="/Analog_Power/15Va">
+      <node ref="R31" pin="1"/>
+      <node ref="P4" pin="4"/>
+      <node ref="P2" pin="3"/>
+      <node ref="TP26" pin="~"/>
+      <node ref="TP6" pin="~"/>
+    </net>
+    <net code="24" name="/Digital_Power/1.8V">
+      <node ref="TP4" pin="~"/>
+      <node ref="TP13" pin="~"/>
+      <node ref="P3" pin="7"/>
+      <node ref="R9" pin="1"/>
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="25" name="/Digital_Power/3.3V">
+      <node ref="TP3" pin="~"/>
+      <node ref="TP15" pin="~"/>
+      <node ref="P3" pin="5"/>
+      <node ref="R11" pin="1"/>
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="26" name="/Analog_Power/50Va">
+      <node ref="P2" pin="7"/>
+      <node ref="R23" pin="1"/>
+      <node ref="TP21" pin="~"/>
+      <node ref="TP8" pin="~"/>
+      <node ref="P4" pin="8"/>
+    </net>
+    <net code="27" name="GNDD">
+      <node ref="Q1" pin="3"/>
+      <node ref="U7" pin="1"/>
+      <node ref="R21" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="L6" pin="2"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C24" pin="2"/>
+      <node ref="U8" pin="19"/>
+      <node ref="U8" pin="13"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U9" pin="3"/>
+      <node ref="U11" pin="6"/>
+      <node ref="U9" pin="9"/>
+      <node ref="U10" pin="3"/>
+      <node ref="U12" pin="4"/>
+      <node ref="R18" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="9"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U6" pin="3"/>
+      <node ref="C36" pin="1"/>
+      <node ref="U6" pin="9"/>
+      <node ref="C40" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="C41" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U5" pin="9"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="P4" pin="45"/>
+      <node ref="P2" pin="2"/>
+      <node ref="P2" pin="4"/>
+      <node ref="P2" pin="6"/>
+      <node ref="P2" pin="10"/>
+      <node ref="P2" pin="20"/>
+      <node ref="P2" pin="30"/>
+      <node ref="P2" pin="40"/>
+      <node ref="P2" pin="50"/>
+      <node ref="P2" pin="60"/>
+      <node ref="P4" pin="53"/>
+      <node ref="P4" pin="15"/>
+      <node ref="P4" pin="25"/>
+      <node ref="P4" pin="35"/>
+      <node ref="P4" pin="59"/>
+      <node ref="P4" pin="55"/>
+      <node ref="P2" pin="61"/>
+      <node ref="P4" pin="17"/>
+      <node ref="P4" pin="27"/>
+      <node ref="P4" pin="37"/>
+      <node ref="P4" pin="47"/>
+      <node ref="P4" pin="57"/>
+      <node ref="P2" pin="56"/>
+      <node ref="P2" pin="18"/>
+      <node ref="P2" pin="28"/>
+      <node ref="P2" pin="38"/>
+      <node ref="P2" pin="48"/>
+      <node ref="P1" pin="43"/>
+      <node ref="P1" pin="19"/>
+      <node ref="P1" pin="29"/>
+      <node ref="P1" pin="39"/>
+      <node ref="P1" pin="11"/>
+      <node ref="P1" pin="21"/>
+      <node ref="P1" pin="31"/>
+      <node ref="P1" pin="41"/>
+      <node ref="P1" pin="51"/>
+      <node ref="P1" pin="61"/>
+      <node ref="P1" pin="9"/>
+      <node ref="P1" pin="62"/>
+      <node ref="P1" pin="13"/>
+      <node ref="P1" pin="23"/>
+      <node ref="P2" pin="58"/>
+      <node ref="P1" pin="53"/>
+      <node ref="P1" pin="33"/>
+      <node ref="P2" pin="8"/>
+      <node ref="P4" pin="19"/>
+      <node ref="P4" pin="29"/>
+      <node ref="P4" pin="39"/>
+      <node ref="P4" pin="49"/>
+      <node ref="P3" pin="2"/>
+      <node ref="P3" pin="14"/>
+      <node ref="P3" pin="24"/>
+      <node ref="P3" pin="34"/>
+      <node ref="P3" pin="44"/>
+      <node ref="P3" pin="54"/>
+      <node ref="P3" pin="42"/>
+      <node ref="P3" pin="16"/>
+      <node ref="P3" pin="26"/>
+      <node ref="P3" pin="36"/>
+      <node ref="P3" pin="46"/>
+      <node ref="P3" pin="56"/>
+      <node ref="P3" pin="30"/>
+      <node ref="P1" pin="59"/>
+      <node ref="P3" pin="62"/>
+      <node ref="P3" pin="4"/>
+      <node ref="P3" pin="6"/>
+      <node ref="P3" pin="8"/>
+      <node ref="P3" pin="10"/>
+      <node ref="P3" pin="20"/>
+      <node ref="P3" pin="40"/>
+      <node ref="P3" pin="50"/>
+      <node ref="P3" pin="60"/>
+      <node ref="P3" pin="61"/>
+      <node ref="P3" pin="12"/>
+      <node ref="P3" pin="22"/>
+      <node ref="P3" pin="32"/>
+      <node ref="P2" pin="32"/>
+      <node ref="P2" pin="46"/>
+      <node ref="P2" pin="24"/>
+      <node ref="P2" pin="12"/>
+      <node ref="P2" pin="22"/>
+      <node ref="P1" pin="57"/>
+      <node ref="P2" pin="42"/>
+      <node ref="P2" pin="52"/>
+      <node ref="P2" pin="62"/>
+      <node ref="P2" pin="14"/>
+      <node ref="P4" pin="43"/>
+      <node ref="P2" pin="34"/>
+      <node ref="P2" pin="44"/>
+      <node ref="P2" pin="54"/>
+      <node ref="P2" pin="16"/>
+      <node ref="P2" pin="26"/>
+      <node ref="P2" pin="36"/>
+      <node ref="P3" pin="52"/>
+      <node ref="TP1" pin="~"/>
+      <node ref="U2" pin="17"/>
+      <node ref="U2" pin="22"/>
+      <node ref="U2" pin="21"/>
+      <node ref="U2" pin="11"/>
+      <node ref="U2" pin="10"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U3" pin="22"/>
+      <node ref="U3" pin="21"/>
+      <node ref="U3" pin="10"/>
+      <node ref="P1" pin="1"/>
+      <node ref="P1" pin="3"/>
+      <node ref="P1" pin="5"/>
+      <node ref="P1" pin="7"/>
+      <node ref="U3" pin="17"/>
+      <node ref="P1" pin="17"/>
+      <node ref="P1" pin="15"/>
+      <node ref="P1" pin="25"/>
+      <node ref="P1" pin="35"/>
+      <node ref="P1" pin="45"/>
+      <node ref="P1" pin="55"/>
+      <node ref="P1" pin="27"/>
+      <node ref="P1" pin="37"/>
+      <node ref="P1" pin="47"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="P4" pin="33"/>
+      <node ref="P3" pin="18"/>
+      <node ref="P3" pin="28"/>
+      <node ref="P3" pin="38"/>
+      <node ref="P3" pin="48"/>
+      <node ref="P3" pin="58"/>
+      <node ref="P1" pin="49"/>
+      <node ref="P4" pin="1"/>
+      <node ref="P4" pin="3"/>
+      <node ref="P4" pin="7"/>
+      <node ref="P4" pin="11"/>
+      <node ref="P4" pin="61"/>
+      <node ref="P4" pin="51"/>
+      <node ref="P4" pin="41"/>
+      <node ref="P4" pin="9"/>
+      <node ref="P4" pin="5"/>
+      <node ref="P4" pin="21"/>
+      <node ref="P4" pin="23"/>
+      <node ref="P4" pin="62"/>
+      <node ref="P4" pin="31"/>
+      <node ref="P4" pin="13"/>
+    </net>
+    <net code="28" name="/Digital_Power/5V">
+      <node ref="P3" pin="3"/>
+      <node ref="TP2" pin="~"/>
+      <node ref="TP14" pin="~"/>
+      <node ref="P1" pin="4"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="29" name="/connectors/R30">
+      <node ref="P4" pin="60"/>
+      <node ref="P2" pin="59"/>
+    </net>
+    <net code="30" name="/connectors/R29">
+      <node ref="P4" pin="58"/>
+      <node ref="P2" pin="57"/>
+    </net>
+    <net code="31" name="/connectors/R28">
+      <node ref="P2" pin="55"/>
+      <node ref="P4" pin="56"/>
+    </net>
+    <net code="32" name="/connectors/R27">
+      <node ref="P4" pin="54"/>
+      <node ref="P2" pin="53"/>
+    </net>
+    <net code="33" name="/connectors/R26">
+      <node ref="P2" pin="51"/>
+      <node ref="P4" pin="52"/>
+    </net>
+    <net code="34" name="/connectors/R25">
+      <node ref="P2" pin="49"/>
+      <node ref="P4" pin="50"/>
+    </net>
+    <net code="35" name="/connectors/R24">
+      <node ref="P2" pin="47"/>
+      <node ref="P4" pin="48"/>
+    </net>
+    <net code="36" name="/connectors/R23">
+      <node ref="P2" pin="45"/>
+      <node ref="P4" pin="46"/>
+    </net>
+    <net code="37" name="/connectors/R22">
+      <node ref="P4" pin="44"/>
+      <node ref="P2" pin="43"/>
+    </net>
+    <net code="38" name="/connectors/R21">
+      <node ref="P2" pin="41"/>
+      <node ref="P4" pin="42"/>
+    </net>
+    <net code="39" name="/connectors/L13">
+      <node ref="P3" pin="25"/>
+      <node ref="P1" pin="26"/>
+    </net>
+    <net code="40" name="/connectors/L24">
+      <node ref="P1" pin="48"/>
+      <node ref="P3" pin="47"/>
+    </net>
+    <net code="41" name="/connectors/L23">
+      <node ref="P3" pin="45"/>
+      <node ref="P1" pin="46"/>
+    </net>
+    <net code="42" name="/connectors/L22">
+      <node ref="P3" pin="43"/>
+      <node ref="P1" pin="44"/>
+    </net>
+    <net code="43" name="/connectors/L21">
+      <node ref="P1" pin="42"/>
+      <node ref="P3" pin="41"/>
+    </net>
+    <net code="44" name="/connectors/L20">
+      <node ref="P3" pin="39"/>
+      <node ref="P1" pin="40"/>
+    </net>
+    <net code="45" name="/connectors/L19">
+      <node ref="P3" pin="37"/>
+      <node ref="P1" pin="38"/>
+    </net>
+    <net code="46" name="/connectors/L18">
+      <node ref="P1" pin="36"/>
+      <node ref="P3" pin="35"/>
+    </net>
+    <net code="47" name="/connectors/L17">
+      <node ref="P3" pin="33"/>
+      <node ref="P1" pin="34"/>
+    </net>
+    <net code="48" name="/connectors/L16">
+      <node ref="P3" pin="31"/>
+      <node ref="P1" pin="32"/>
+    </net>
+    <net code="49" name="/connectors/L15">
+      <node ref="P1" pin="30"/>
+      <node ref="P3" pin="29"/>
+    </net>
+    <net code="50" name="/connectors/L14">
+      <node ref="P3" pin="27"/>
+      <node ref="P1" pin="28"/>
+    </net>
+    <net code="51" name="/connectors/L25">
+      <node ref="P1" pin="50"/>
+      <node ref="P3" pin="49"/>
+    </net>
+    <net code="52" name="/connectors/L12">
+      <node ref="P3" pin="23"/>
+      <node ref="P1" pin="24"/>
+    </net>
+    <net code="53" name="/connectors/L11">
+      <node ref="P3" pin="21"/>
+      <node ref="P1" pin="22"/>
+    </net>
+    <net code="54" name="/connectors/L10">
+      <node ref="P3" pin="19"/>
+      <node ref="P1" pin="20"/>
+    </net>
+    <net code="55" name="/connectors/L9">
+      <node ref="P3" pin="17"/>
+      <node ref="P1" pin="18"/>
+    </net>
+    <net code="56" name="/connectors/L8">
+      <node ref="P3" pin="15"/>
+      <node ref="P1" pin="16"/>
+    </net>
+    <net code="57" name="/connectors/L7">
+      <node ref="P3" pin="13"/>
+      <node ref="P1" pin="14"/>
+    </net>
+    <net code="58" name="/connectors/L30">
+      <node ref="P3" pin="59"/>
+      <node ref="P1" pin="60"/>
+    </net>
+    <net code="59" name="/connectors/L29">
+      <node ref="P3" pin="57"/>
+      <node ref="P1" pin="58"/>
+    </net>
+    <net code="60" name="/connectors/L28">
+      <node ref="P1" pin="56"/>
+      <node ref="P3" pin="55"/>
+    </net>
+    <net code="61" name="/connectors/L27">
+      <node ref="P1" pin="54"/>
+      <node ref="P3" pin="53"/>
+    </net>
+    <net code="62" name="/connectors/L26">
+      <node ref="P1" pin="52"/>
+      <node ref="P3" pin="51"/>
+    </net>
+    <net code="63" name="Net-(L1-Pad2)">
+      <node ref="U4" pin="2"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="64" name="Net-(C11-Pad1)">
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="P5" pin="2"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="65" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U4" pin="10"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="66" name="Net-(R7-Pad2)">
+      <node ref="U6" pin="10"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="67" name="Net-(L1-Pad1)">
+      <node ref="U4" pin="4"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="68" name="Net-(C14-Pad1)">
+      <node ref="U4" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="TP10" pin="~"/>
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="69" name="Net-(C12-Pad1)">
+      <node ref="U5" pin="5"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="P6" pin="2"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="70" name="Net-(L2-Pad2)">
+      <node ref="U5" pin="2"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="71" name="Net-(L2-Pad1)">
+      <node ref="U5" pin="4"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="72" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="73" name="Net-(C16-Pad1)">
+      <node ref="R11" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="TP12" pin="~"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="74" name="Net-(L3-Pad1)">
+      <node ref="L3" pin="1"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="75" name="Net-(L3-Pad2)">
+      <node ref="L3" pin="2"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="76" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="U6" pin="7"/>
+      <node ref="U6" pin="8"/>
+      <node ref="C13" pin="1"/>
+      <node ref="P7" pin="2"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="77" name="Net-(C15-Pad1)">
+      <node ref="C18" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="TP11" pin="~"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="78" name="Net-(C36-Pad2)">
+      <node ref="U10" pin="5"/>
+      <node ref="C36" pin="2"/>
+    </net>
+    <net code="79" name="Net-(R25-Pad2)">
+      <node ref="U10" pin="1"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="80" name="Net-(C38-Pad2)">
+      <node ref="R28" pin="1"/>
+      <node ref="C38" pin="2"/>
+    </net>
+    <net code="81" name="Net-(C39-Pad1)">
+      <node ref="R27" pin="1"/>
+      <node ref="R29" pin="2"/>
+      <node ref="C39" pin="1"/>
+      <node ref="U11" pin="3"/>
+      <node ref="R24" pin="2"/>
+      <node ref="TP25" pin="~"/>
+      <node ref="C41" pin="2"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="82" name="Net-(R27-Pad2)">
+      <node ref="U11" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="U11" pin="1"/>
+    </net>
+    <net code="83" name="Net-(C39-Pad2)">
+      <node ref="R29" pin="1"/>
+      <node ref="C39" pin="2"/>
+    </net>
+    <net code="84" name="Net-(D1-Pad2)">
+      <node ref="L6" pin="1"/>
+      <node ref="U8" pin="18"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="85" name="Net-(D3-Pad1)">
+      <node ref="L7" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="U8" pin="20"/>
+    </net>
+    <net code="86" name="Net-(L7-Pad1)">
+      <node ref="U8" pin="1"/>
+      <node ref="L7" pin="1"/>
+    </net>
+    <net code="87" name="/Analog_Power/+16V">
+      <node ref="R16" pin="2"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="U10" pin="4"/>
+      <node ref="U10" pin="6"/>
+    </net>
+    <net code="88" name="Net-(C31-Pad2)">
+      <node ref="C31" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="89" name="Net-(C38-Pad1)">
+      <node ref="C38" pin="1"/>
+      <node ref="U10" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R28" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R25" pin="1"/>
+      <node ref="C40" pin="2"/>
+      <node ref="TP24" pin="~"/>
+    </net>
+    <net code="90" name="Net-(C31-Pad1)">
+      <node ref="R20" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="R23" pin="2"/>
+      <node ref="TP20" pin="~"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="91" name="Net-(TP18-Pad~)">
+      <node ref="TP18" pin="~"/>
+    </net>
+    <net code="92" name="Net-(TP17-Pad~)">
+      <node ref="TP17" pin="~"/>
+    </net>
+    <net code="93" name="Net-(L4-Pad1)">
+      <node ref="L4" pin="1"/>
+      <node ref="P10" pin="2"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U7" pin="4"/>
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="94" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="95" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="96" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="Q1" pin="4"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="L4" pin="2"/>
+    </net>
+    <net code="97" name="Net-(R17-Pad2)">
+      <node ref="U9" pin="10"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="98" name="/Analog_Power/5.5V">
+      <node ref="TP19" pin="~"/>
+      <node ref="U12" pin="6"/>
+      <node ref="U12" pin="7"/>
+      <node ref="U12" pin="8"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="99" name="Net-(R13-Pad2)">
+      <node ref="U8" pin="10"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="100" name="Net-(U8-Pad8)">
+      <node ref="U8" pin="8"/>
+    </net>
+    <net code="101" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="102" name="Net-(C35-Pad2)">
+      <node ref="U12" pin="5"/>
+      <node ref="C35" pin="2"/>
+    </net>
+    <net code="103" name="Net-(L5-Pad1)">
+      <node ref="L5" pin="1"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="104" name="Net-(C24-Pad1)">
+      <node ref="U9" pin="5"/>
+      <node ref="U9" pin="6"/>
+      <node ref="U9" pin="7"/>
+      <node ref="U9" pin="8"/>
+      <node ref="P9" pin="2"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C25" pin="1"/>
+    </net>
+    <net code="105" name="Net-(L5-Pad2)">
+      <node ref="L5" pin="2"/>
+      <node ref="U9" pin="2"/>
+    </net>
+    <net code="106" name="Net-(C27-Pad1)">
+      <node ref="C28" pin="1"/>
+      <node ref="TP16" pin="~"/>
+      <node ref="C27" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="U9" pin="1"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="107" name="Net-(C20-Pad2)">
+      <node ref="C20" pin="2"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="108" name="/Analog_Power/-16V">
+      <node ref="D1" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="C30" pin="2"/>
+      <node ref="U11" pin="4"/>
+      <node ref="C33" pin="1"/>
+      <node ref="U11" pin="7"/>
+      <node ref="U11" pin="8"/>
+    </net>
+    <net code="109" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="U8" pin="11"/>
+    </net>
+    <net code="110" name="Net-(C26-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="U8" pin="12"/>
+    </net>
+    <net code="111" name="Net-(C23-Pad2)">
+      <node ref="U8" pin="3"/>
+      <node ref="U8" pin="4"/>
+      <node ref="C23" pin="2"/>
+      <node ref="U8" pin="14"/>
+    </net>
+    <net code="112" name="Net-(R14-Pad1)">
+      <node ref="R16" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U8" pin="5"/>
+    </net>
+    <net code="113" name="Net-(C21-Pad2)">
+      <node ref="R13" pin="1"/>
+      <node ref="C21" pin="2"/>
+    </net>
+    <net code="114" name="Net-(C35-Pad1)">
+      <node ref="U12" pin="1"/>
+      <node ref="U12" pin="2"/>
+      <node ref="U12" pin="3"/>
+      <node ref="R30" pin="2"/>
+      <node ref="C37" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="TP22" pin="~"/>
+    </net>
+    <net code="115" name="Net-(C22-Pad1)">
+      <node ref="U8" pin="9"/>
+      <node ref="U8" pin="15"/>
+      <node ref="U8" pin="16"/>
+      <node ref="C22" pin="1"/>
+      <node ref="P8" pin="2"/>
+      <node ref="U8" pin="7"/>
+      <node ref="U8" pin="17"/>
+    </net>
+  </nets>
+</export>
