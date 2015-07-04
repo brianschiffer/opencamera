@@ -3,7 +3,7 @@
   (general
     (links 194)
     (no_connects 122)
-    (area 88.798399 76.098399 190.601601 139.801601)
+    (area 84.870456 68.27 202.615715 141.1664)
     (thickness 1.6)
     (drawings 15)
     (tracks 579)
@@ -14,8 +14,8 @@
 
   (page A)
   (title_block
-    (title "Template - Board Name Here")
-    (date "Sunday, June 07, 2015")
+    (title "Power Board")
+    (date "Friday, July 03, 2015")
     (rev 1.1)
     (company "Open Camera Project")
     (comment 1 "Author: Brian Schiffer")
@@ -1020,7 +1020,7 @@
     (arrow2a (pts (xy 88.9 71.12) (xy 90.026504 71.706421)))
     (arrow2b (pts (xy 88.9 71.12) (xy 90.026504 70.533579)))
   )
-  (gr_text "Open Camera Project\nBoard Template v1.0\nBrian Schiffer" (at 106.68 134.62) (layer F.SilkS)
+  (gr_text "Open Camera Project\nPower Board v1.1\nBrian Schiffer" (at 106.68 134.62) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.1524)) (justify left))
   )
   (gr_line (start 93.98 139.7) (end 185.42 139.7) (angle 90) (layer Edge.Cuts) (width 0.2032))
