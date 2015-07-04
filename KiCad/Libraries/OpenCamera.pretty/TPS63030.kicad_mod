@@ -1,8 +1,8 @@
-(module TPS63030 (layer F.Cu) (tedit 55973AEB)
-  (fp_text reference U** (at 0 2.84) (layer F.SilkS)
+(module TPS63030 (layer F.Cu) (tedit 5597D8AA)
+  (fp_text reference U4 (at 0 2.84) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
-  (fp_text value "SOIC 10" (at 0 -2.84) (layer F.SilkS)
+  (fp_text value TPS63030 (at 0 -2.84) (layer F.SilkS) hide
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
   (fp_circle (center -1.94 -1) (end -1.86 -1.02) (layer F.SilkS) (width 0.2))

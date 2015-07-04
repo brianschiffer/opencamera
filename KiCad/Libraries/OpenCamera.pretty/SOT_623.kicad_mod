@@ -1,8 +1,8 @@
-(module SOT_623 (layer F.Cu) (tedit 5597C00E)
-  (fp_text reference U** (at 0 2.93) (layer F.SilkS)
+(module SOT_623 (layer F.Cu) (tedit 5597D87C)
+  (fp_text reference U7 (at 0 2.93) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
-  (fp_text value "SOIC 6" (at 0 -2.93) (layer F.SilkS)
+  (fp_text value MAX152x (at 0 -2.93) (layer F.SilkS) hide
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
   (fp_circle (center -2.26 -0.94) (end -2.19 -1.01) (layer F.SilkS) (width 0.2))

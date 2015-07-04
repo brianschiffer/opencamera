@@ -1,8 +1,8 @@
-(module ADP3335 (layer F.Cu) (tedit 5597BDF8)
-  (fp_text reference U** (at 0 3.075) (layer F.SilkS)
+(module ADP3335 (layer F.Cu) (tedit 5597D819)
+  (fp_text reference U12 (at 0 3.075) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
-  (fp_text value "SOIC 8" (at 0 -3.075) (layer F.SilkS)
+  (fp_text value ADP3335_CSP (at 0 -3.075) (layer F.SilkS) hide
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
   (fp_circle (center -2.14 -0.76) (end -2.1 -0.78) (layer F.SilkS) (width 0.2))

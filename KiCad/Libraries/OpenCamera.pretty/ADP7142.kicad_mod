@@ -1,8 +1,8 @@
-(module ADP7142 (layer F.Cu) (tedit 5597BC89)
-  (fp_text reference U** (at 0 2) (layer F.SilkS)
+(module ADP7142 (layer F.Cu) (tedit 5597D847)
+  (fp_text reference U10 (at 0 2) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
-  (fp_text value "SOIC 6" (at -0.01 -1.87) (layer F.SilkS)
+  (fp_text value ADP7142_CSP (at -0.01 -1.87) (layer F.SilkS) hide
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
   (fp_circle (center -1.64 -0.65) (end -1.59 -0.68) (layer F.SilkS) (width 0.2))
