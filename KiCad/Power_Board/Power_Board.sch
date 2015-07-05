@@ -864,20 +864,24 @@ Wire Wire Line
 Wire Wire Line
 	7400 3600 7400 3400
 Connection ~ 7400 3400
-Text Label 1600 1300 2    60   ~ 0
-CS_DAC1
-Text Label 1600 1500 2    60   ~ 0
-SCLK
 Text Label 1600 1600 2    60   ~ 0
-MOSI
+CS_DAC1
+Text Label 1600 1300 2    60   ~ 0
+SCLK
 Text Label 1600 1400 2    60   ~ 0
+MOSI
+Text Label 1600 1700 2    60   ~ 0
 CS_DAC2
+Text Label 1600 1500 2    60   ~ 0
+MISO
 Wire Wire Line
-	1700 1300 1600 1300
+	1600 1300 1700 1300
 Wire Wire Line
-	1700 1400 1600 1400
+	1600 1400 1700 1400
 Wire Wire Line
-	1700 1500 1600 1500
+	1600 1500 1700 1500
 Wire Wire Line
-	1700 1600 1600 1600
+	1600 1600 1700 1600
+Wire Wire Line
+	1600 1700 1700 1700
 $EndSCHEMATC
