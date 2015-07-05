@@ -37,7 +37,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 4
 Title "Power Board"
-Date "Friday, July 03, 2015"
+Date "Sunday, July 05, 2015"
 Rev "1.1"
 Comp "Open Camera Project"
 Comment1 "Author: Brian Schiffer"
@@ -305,21 +305,21 @@ Text Label 2700 2700 0    60   ~ 0
 V15a
 Text Label 2700 2800 0    60   ~ 0
 V16a
-Text Label 9200 1900 0    60   ~ 0
-V1a
 Text Label 9200 2000 0    60   ~ 0
+V1a
+Text Label 9200 1900 0    60   ~ 0
 V2a
-Text Label 9200 2100 0    60   ~ 0
-V3a
-Text Label 9200 2200 0    60   ~ 0
-V4a
 Text Label 9200 2300 0    60   ~ 0
-V5a
+V3a
 Text Label 9200 2400 0    60   ~ 0
-V6a
+V4a
 Text Label 9200 2500 0    60   ~ 0
-V7a
+V5a
 Text Label 9200 2600 0    60   ~ 0
+V6a
+Text Label 9200 2200 0    60   ~ 0
+V7a
+Text Label 9200 2100 0    60   ~ 0
 V8a
 Text Notes 3050 6950 0    60   ~ 0
 Test Clips
@@ -627,40 +627,9 @@ Wire Wire Line
 	7800 2200 7700 2200
 Wire Wire Line
 	7800 2100 7700 2100
-$Comp
-L Test_Point TP28
-U 1 1 55978320
-P 7100 2300
-F 0 "TP28" H 7100 2550 60  0000 C CNN
-F 1 "Test_Point" H 7100 2650 60  0001 C CNN
-F 2 "OpenCamera:TEST_POINT_SMD" H 7100 2300 60  0001 C CNN
-F 3 "" H 7100 2300 60  0000 C CNN
-	1    7100 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7800 2400 7100 2400
-Wire Wire Line
-	7100 2400 7100 2300
 Wire Wire Line
 	7800 2500 7750 2500
 Connection ~ 7750 2600
-Wire Wire Line
-	9200 1900 9100 1900
-Wire Wire Line
-	9200 2000 9100 2000
-Wire Wire Line
-	9200 2100 9100 2100
-Wire Wire Line
-	9200 2200 9100 2200
-Wire Wire Line
-	9200 2300 9100 2300
-Wire Wire Line
-	9200 2400 9100 2400
-Wire Wire Line
-	9200 2500 9100 2500
-Wire Wire Line
-	9200 2600 9100 2600
 $Comp
 L C_Small C4
 U 1 1 5597F3F1
@@ -709,21 +678,21 @@ Wire Wire Line
 Wire Wire Line
 	7350 1650 7350 1450
 Connection ~ 7350 1450
-Text Label 9250 3850 0    60   ~ 0
-V9a
-Text Label 9250 3950 0    60   ~ 0
-V10a
-Text Label 9250 4050 0    60   ~ 0
-V11a
-Text Label 9250 4150 0    60   ~ 0
-V12a
-Text Label 9250 4250 0    60   ~ 0
-V13a
-Text Label 9250 4350 0    60   ~ 0
-V14a
 Text Label 9250 4450 0    60   ~ 0
-V15a
+V9a
 Text Label 9250 4550 0    60   ~ 0
+V10a
+Text Label 9250 4150 0    60   ~ 0
+V11a
+Text Label 9250 4050 0    60   ~ 0
+V12a
+Text Label 9250 3950 0    60   ~ 0
+V13a
+Text Label 9250 3850 0    60   ~ 0
+V14a
+Text Label 9250 4250 0    60   ~ 0
+V15a
+Text Label 9250 4350 0    60   ~ 0
 V16a
 $Comp
 L MAX5259 U3
@@ -771,40 +740,9 @@ Wire Wire Line
 	7850 4150 7750 4150
 Wire Wire Line
 	7850 4050 7750 4050
-$Comp
-L Test_Point TP29
-U 1 1 559888D0
-P 7100 4250
-F 0 "TP29" H 7100 4500 60  0000 C CNN
-F 1 "Test_Point" H 7100 4600 60  0001 C CNN
-F 2 "OpenCamera:TEST_POINT_SMD" H 7100 4250 60  0001 C CNN
-F 3 "" H 7100 4250 60  0000 C CNN
-	1    7100 4250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7850 4350 7100 4350
-Wire Wire Line
-	7100 4350 7100 4250
 Wire Wire Line
 	7850 4450 7800 4450
 Connection ~ 7800 4550
-Wire Wire Line
-	9250 3850 9150 3850
-Wire Wire Line
-	9250 3950 9150 3950
-Wire Wire Line
-	9250 4050 9150 4050
-Wire Wire Line
-	9250 4150 9150 4150
-Wire Wire Line
-	9250 4250 9150 4250
-Wire Wire Line
-	9250 4350 9150 4350
-Wire Wire Line
-	9250 4450 9150 4450
-Wire Wire Line
-	9250 4550 9150 4550
 $Comp
 L C_Small C5
 U 1 1 559888E2
@@ -914,4 +852,36 @@ Wire Wire Line
 	2400 5400 2400 5500
 Text Notes 1100 5350 0    60   ~ 0
 GND & GNDA are common on the power board.
+Wire Wire Line
+	9100 1900 9200 1900
+Wire Wire Line
+	9100 2000 9200 2000
+Wire Wire Line
+	9100 2100 9200 2100
+Wire Wire Line
+	9100 2200 9200 2200
+Wire Wire Line
+	9100 2300 9200 2300
+Wire Wire Line
+	9100 2400 9200 2400
+Wire Wire Line
+	9100 2500 9200 2500
+Wire Wire Line
+	9100 2600 9200 2600
+Wire Wire Line
+	9150 3850 9250 3850
+Wire Wire Line
+	9150 3950 9250 3950
+Wire Wire Line
+	9150 4050 9250 4050
+Wire Wire Line
+	9150 4150 9250 4150
+Wire Wire Line
+	9150 4250 9250 4250
+Wire Wire Line
+	9150 4350 9250 4350
+Wire Wire Line
+	9150 4450 9250 4450
+Wire Wire Line
+	9150 4550 9250 4550
 $EndSCHEMATC

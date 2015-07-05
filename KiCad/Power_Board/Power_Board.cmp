@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-19 BZR 5613)-product   date = 7/4/2015 8:39:20 AM
+Cmp-Mod V01 Created by Cvpcb (2015-04-19 BZR 5613)-product   date = 7/5/2015 2:17:13 PM
 
 BeginCmp
 TimeStamp = /5596BBE9;
@@ -312,7 +312,7 @@ BeginCmp
 TimeStamp = /558C33EF/5592DF1A;
 Reference = D4;
 ValeurCmp = 1N5261;
-IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+IdModule  = OpenCamera:Diode_DO-35;
 EndCmp
 
 BeginCmp
@@ -736,27 +736,6 @@ IdModule  = OpenCamera:TEST_POINT_SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /558C2B00/558F7A52;
-Reference = TP13;
-ValeurCmp = Test_Point;
-IdModule  = OpenCamera:TEST_POINT_SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = /558C2B00/558F6F2F;
-Reference = TP14;
-ValeurCmp = Test_Point;
-IdModule  = OpenCamera:TEST_POINT_SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = /558C2B00/558F777A;
-Reference = TP15;
-ValeurCmp = Test_Point;
-IdModule  = OpenCamera:TEST_POINT_SMD;
-EndCmp
-
-BeginCmp
 TimeStamp = /558C33EF/55900E19;
 Reference = TP16;
 ValeurCmp = Test_Point;
@@ -792,22 +771,8 @@ IdModule  = OpenCamera:TEST_POINT_SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /558C33EF/558FB360;
-Reference = TP21;
-ValeurCmp = Test_Point;
-IdModule  = OpenCamera:TEST_POINT_SMD;
-EndCmp
-
-BeginCmp
 TimeStamp = /558C33EF/55904EB9;
 Reference = TP22;
-ValeurCmp = Test_Point;
-IdModule  = OpenCamera:TEST_POINT_SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = /558C33EF/559056BA;
-Reference = TP23;
 ValeurCmp = Test_Point;
 IdModule  = OpenCamera:TEST_POINT_SMD;
 EndCmp
@@ -822,20 +787,6 @@ EndCmp
 BeginCmp
 TimeStamp = /558C33EF/558FC563;
 Reference = TP25;
-ValeurCmp = Test_Point;
-IdModule  = OpenCamera:TEST_POINT_SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = /558C33EF/558FC9A5;
-Reference = TP26;
-ValeurCmp = Test_Point;
-IdModule  = OpenCamera:TEST_POINT_SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = /558C33EF/558FC570;
-Reference = TP27;
 ValeurCmp = Test_Point;
 IdModule  = OpenCamera:TEST_POINT_SMD;
 EndCmp
