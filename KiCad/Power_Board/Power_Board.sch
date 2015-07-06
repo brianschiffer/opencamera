@@ -37,7 +37,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 4
 Title "Power Board"
-Date "Sunday, July 05, 2015"
+Date "Monday, July 06, 2015"
 Rev "1.1"
 Comp "Open Camera Project"
 Comment1 "Author: Brian Schiffer"
@@ -406,12 +406,12 @@ Text Label 2300 7450 0    60   ~ 0
 $Comp
 L Test_Point TP9
 U 1 1 55928CD4
-P 5200 3450
-F 0 "TP9" H 5200 3700 60  0000 C CNN
-F 1 "Test_Point" H 5200 3800 60  0001 C CNN
-F 2 "OpenCamera:TEST_POINT_SMD" H 5200 3450 60  0001 C CNN
-F 3 "" H 5200 3450 60  0000 C CNN
-	1    5200 3450
+P 4750 7350
+F 0 "TP9" H 4750 7600 60  0000 C CNN
+F 1 "Test_Point" H 4750 7700 60  0001 C CNN
+F 2 "OpenCamera:TEST_CLIP" H 4750 7350 60  0001 C CNN
+F 3 "" H 4750 7350 60  0000 C CNN
+	1    4750 7350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -582,16 +582,13 @@ Wire Wire Line
 Wire Wire Line
 	3700 7350 3700 7450
 Wire Wire Line
-	5200 3450 5200 3500
-Connection ~ 5200 3500
-Wire Wire Line
 	4400 7350 4400 7450
 Wire Wire Line
 	1950 7350 1950 7400
 Wire Notes Line
-	1800 7000 4950 7000
+	1800 7000 5450 7000
 Wire Notes Line
-	1800 7550 4950 7550
+	1800 7550 5450 7550
 Wire Notes Line
 	1800 7550 1800 7000
 Wire Wire Line
@@ -885,18 +882,22 @@ Wire Wire Line
 $Comp
 L Test_Point TP13
 U 1 1 5599F567
-P 4750 7350
-F 0 "TP13" H 4750 7600 60  0000 C CNN
-F 1 "Test_Point" H 4750 7700 60  0001 C CNN
-F 2 "OpenCamera:TEST_CLIP" H 4750 7350 60  0001 C CNN
-F 3 "" H 4750 7350 60  0000 C CNN
-	1    4750 7350
+P 5150 7350
+F 0 "TP13" H 5150 7600 60  0000 C CNN
+F 1 "Test_Point" H 5150 7700 60  0001 C CNN
+F 2 "OpenCamera:TEST_CLIP" H 5150 7350 60  0001 C CNN
+F 3 "" H 5150 7350 60  0000 C CNN
+	1    5150 7350
 	1    0    0    -1  
 $EndComp
-Text Label 4750 7450 0    60   ~ 0
+Text Label 5150 7450 0    60   ~ 0
 Vin
+Wire Wire Line
+	5150 7350 5150 7450
+Text Label 4750 7450 0    60   ~ 0
+Vref_3V
 Wire Wire Line
 	4750 7350 4750 7450
 Wire Notes Line
-	4950 7550 4950 7000
+	5450 7550 5450 7000
 $EndSCHEMATC

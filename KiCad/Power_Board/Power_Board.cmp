@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-19 BZR 5613)-product   date = 7/5/2015 2:17:13 PM
+Cmp-Mod V01 Created by Cvpcb (2015-04-19 BZR 5613)-product   date = 7/6/2015 7:07:11 PM
 
 BeginCmp
 TimeStamp = /5596BBE9;
@@ -487,21 +487,21 @@ BeginCmp
 TimeStamp = /558C2B00/558F7A3D;
 Reference = R9;
 ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0402;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /558C2B00/558F62D1;
 Reference = R10;
 ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0402;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /558C2B00/558F7765;
 Reference = R11;
 ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0402;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
@@ -578,14 +578,14 @@ BeginCmp
 TimeStamp = /558C33EF/55900E08;
 Reference = R22;
 ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0402;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /558C33EF/558FB359;
 Reference = R23;
 ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0402;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
@@ -634,21 +634,21 @@ BeginCmp
 TimeStamp = /558C33EF/5590514B;
 Reference = R30;
 ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0402;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /558C33EF/558FC99E;
 Reference = R31;
 ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0402;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /558C33EF/558FC569;
 Reference = R32;
 ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0402;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
@@ -711,7 +711,7 @@ BeginCmp
 TimeStamp = /55928CD4;
 Reference = TP9;
 ValeurCmp = Test_Point;
-IdModule  = OpenCamera:TEST_POINT_SMD;
+IdModule  = OpenCamera:TEST_CLIP;
 EndCmp
 
 BeginCmp
@@ -733,6 +733,13 @@ TimeStamp = /558C2B00/558F7774;
 Reference = TP12;
 ValeurCmp = Test_Point;
 IdModule  = OpenCamera:TEST_POINT_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5599F567;
+Reference = TP13;
+ValeurCmp = Test_Point;
+IdModule  = OpenCamera:TEST_CLIP;
 EndCmp
 
 BeginCmp
@@ -787,20 +794,6 @@ EndCmp
 BeginCmp
 TimeStamp = /558C33EF/558FC563;
 Reference = TP25;
-ValeurCmp = Test_Point;
-IdModule  = OpenCamera:TEST_POINT_SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = /55978320;
-Reference = TP28;
-ValeurCmp = Test_Point;
-IdModule  = OpenCamera:TEST_POINT_SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = /559888D0;
-Reference = TP29;
 ValeurCmp = Test_Point;
 IdModule  = OpenCamera:TEST_POINT_SMD;
 EndCmp
