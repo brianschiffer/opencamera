@@ -589,11 +589,9 @@ Wire Wire Line
 Wire Wire Line
 	1950 7350 1950 7400
 Wire Notes Line
-	1800 7000 4800 7000
+	1800 7000 4950 7000
 Wire Notes Line
-	4800 7000 4800 7550
-Wire Notes Line
-	4800 7550 1800 7550
+	1800 7550 4950 7550
 Wire Notes Line
 	1800 7550 1800 7000
 Wire Wire Line
@@ -884,4 +882,21 @@ Wire Wire Line
 	9150 4450 9250 4450
 Wire Wire Line
 	9150 4550 9250 4550
+$Comp
+L Test_Point TP?
+U 1 1 5599F567
+P 4750 7350
+F 0 "TP?" H 4750 7600 60  0000 C CNN
+F 1 "Test_Point" H 4750 7700 60  0001 C CNN
+F 2 "OpenCamera:TEST_CLIP" H 4750 7350 60  0001 C CNN
+F 3 "" H 4750 7350 60  0000 C CNN
+	1    4750 7350
+	1    0    0    -1  
+$EndComp
+Text Label 4750 7450 0    60   ~ 0
+Vin
+Wire Wire Line
+	4750 7350 4750 7450
+Wire Notes Line
+	4950 7550 4950 7000
 $EndSCHEMATC
