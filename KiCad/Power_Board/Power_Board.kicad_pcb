@@ -15,7 +15,7 @@
   (page A)
   (title_block
     (title "Power Board")
-    (date "Monday, July 06, 2015")
+    (date "Tuesday, July 07, 2015")
     (rev 1.1)
     (company "Open Camera Project")
     (comment 1 "Author: Brian Schiffer")
@@ -87,8 +87,8 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFEFF7F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
-      (usegerberextensions false)
+      (layerselection 0x010f0_80000001)
+      (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -108,7 +108,7 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
       (outputdirectory ""))
   )
