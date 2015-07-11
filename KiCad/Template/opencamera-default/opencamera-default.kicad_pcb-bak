@@ -3,7 +3,7 @@
   (general
     (links 194)
     (no_connects 128)
-    (area 88.798399 76.098399 190.601601 139.801601)
+    (area 84.870456 68.27 202.615715 141.1664)
     (thickness 1.6)
     (drawings 15)
     (tracks 579)
@@ -15,8 +15,8 @@
   (page A)
   (title_block
     (title "Template - Board Name Here")
-    (date "Sunday, June 07, 2015")
-    (rev 1.1)
+    (date "Saturday, July 11, 2015")
+    (rev 1.2)
     (company "Open Camera Project")
     (comment 1 "Author: Brian Schiffer")
   )
@@ -53,7 +53,7 @@
     (user_trace_width 0.254)
     (user_trace_width 0.3048)
     (trace_clearance 0.1524)
-    (zone_clearance 0.508)
+    (zone_clearance 0.1524)
     (zone_45_only yes)
     (trace_min 0.1524)
     (segment_width 0.2032)
@@ -75,6 +75,7 @@
     (pad_size 2.1 1.4)
     (pad_drill 0)
     (pad_to_mask_clearance 0)
+    (pad_to_paste_clearance -0.0254)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFF7F)
     (pcbplotparams
@@ -1020,7 +1021,7 @@
     (arrow2a (pts (xy 88.9 71.12) (xy 90.026504 71.706421)))
     (arrow2b (pts (xy 88.9 71.12) (xy 90.026504 70.533579)))
   )
-  (gr_text "Open Camera Project\nBoard Template v1.0\nBrian Schiffer" (at 106.68 134.62) (layer F.SilkS)
+  (gr_text "Open Camera Project\nBoard Template v1.2\nBrian Schiffer" (at 106.68 134.62) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.1524)) (justify left))
   )
   (gr_line (start 93.98 139.7) (end 185.42 139.7) (angle 90) (layer Edge.Cuts) (width 0.2032))
@@ -1653,6 +1654,17 @@
     (polygon
       (pts
         (xy 179.6796 137.0584) (xy 168.3004 137.0584) (xy 168.3004 131.8768) (xy 179.6796 131.8768)
+      )
+    )
+  )
+  (zone (net 1) (net_name GNDD) (layer F.Cu) (tstamp 55A19688) (hatch edge 0.508)
+    (connect_pads (clearance 0.1524))
+    (min_thickness 0.1524)
+    (fill yes (arc_segments 32) (thermal_gap 0.1524) (thermal_bridge_width 0.1778) (smoothing fillet) (radius 2.54))
+    (polygon
+      (pts
+        (xy 140.335 76.708) (xy 189.992 76.708) (xy 189.992 139.192) (xy 89.408 139.192) (xy 89.408 76.708)
+        (xy 140.335 76.708)
       )
     )
   )
