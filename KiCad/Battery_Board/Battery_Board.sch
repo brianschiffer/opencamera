@@ -699,7 +699,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 4800 6150 5450
 Wire Wire Line
-	6000 4950 6850 4950
+	6000 4950 7150 4950
 $Comp
 L GND #PWR?
 U 1 1 55A873FF
@@ -755,19 +755,19 @@ Connection ~ 6150 4850
 Wire Wire Line
 	6150 5700 6150 5650
 Wire Wire Line
-	6000 5250 6850 5250
+	6000 5250 7150 5250
 Wire Wire Line
-	6000 5350 6850 5350
-Text Label 6850 5250 0    60   ~ 0
+	6000 5350 7150 5350
+Text Label 7150 5250 0    60   ~ 0
 SDA
-Text Label 6850 5350 0    60   ~ 0
+Text Label 7150 5350 0    60   ~ 0
 SCL
 Wire Wire Line
 	6150 4550 6150 4600
 Wire Wire Line
 	4650 4600 4650 4550
 Connection ~ 4650 4550
-Text Label 6850 4950 0    60   ~ 0
+Text Label 7150 4950 0    60   ~ 0
 _ALRT_
 Text Notes 4700 4250 0    100  ~ 0
 Battery Fuel Gauge
@@ -786,7 +786,58 @@ Wire Wire Line
 Wire Wire Line
 	1200 3650 1000 3650
 Wire Wire Line
-	4450 4550 6150 4550
-Text Notes 6500 4850 0    60   ~ 12
+	4450 4550 7000 4550
+Text Notes 6500 5500 0    60   ~ 12
 NOTE: Make sure these lines are pulled up off-board!
+$Comp
+L R_Small R?
+U 1 1 55A29834
+P 6500 4700
+F 0 "R?" H 6550 4750 50  0000 L CNN
+F 1 "DNP" H 6550 4650 50  0000 L CNN
+F 2 "" H 6500 4700 60  0000 C CNN
+F 3 "" H 6500 4700 60  0000 C CNN
+	1    6500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 55A2A0C3
+P 6750 4700
+F 0 "R?" H 6800 4750 50  0000 L CNN
+F 1 "DNP" H 6800 4650 50  0000 L CNN
+F 2 "" H 6750 4700 60  0000 C CNN
+F 3 "" H 6750 4700 60  0000 C CNN
+	1    6750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 55A2A1C5
+P 7000 4700
+F 0 "R?" H 7050 4750 50  0000 L CNN
+F 1 "DNP" H 7050 4650 50  0000 L CNN
+F 2 "" H 7000 4700 60  0000 C CNN
+F 3 "" H 7000 4700 60  0000 C CNN
+	1    7000 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4800 6500 4950
+Connection ~ 6500 4950
+Wire Wire Line
+	6750 4800 6750 5250
+Connection ~ 6750 5250
+Wire Wire Line
+	7000 4800 7000 5350
+Connection ~ 7000 5350
+Wire Wire Line
+	7000 4550 7000 4600
+Connection ~ 6150 4550
+Wire Wire Line
+	6750 4600 6750 4550
+Connection ~ 6750 4550
+Wire Wire Line
+	6500 4600 6500 4550
+Connection ~ 6500 4550
 $EndSCHEMATC
