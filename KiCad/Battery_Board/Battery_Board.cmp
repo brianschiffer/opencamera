@@ -1,31 +1,206 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-19 BZR 5613)-product   date = 6/7/2015 1:45:02 PM
+Cmp-Mod V01 Created by Cvpcb (2015-04-19 BZR 5613)-product   date = 7/12/2015 4:48:31 PM
 
 BeginCmp
-TimeStamp = /5574923E/55749249;
+TimeStamp = /55A354A6;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A493A1;
+Reference = C2;
+ValeurCmp = 4.7uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A8837C;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A8A502;
+Reference = C4;
+ValeurCmp = 10nF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A4D814;
+Reference = C5;
+ValeurCmp = 4.7uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A43D3E;
+Reference = D1;
+ValeurCmp = RG_LED;
+IdModule  = OpenCamera:RG_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /5574923E/557C3923;
 Reference = P1;
 ValeurCmp = CONN_LEFT_TOP;
 IdModule  = OpenCamera:DF17_60_RECEPTACLE;
 EndCmp
 
 BeginCmp
-TimeStamp = /5574923E/557492FE;
+TimeStamp = /5574923E/557C4C8A;
 Reference = P2;
 ValeurCmp = CONN_RIGHT_TOP;
 IdModule  = OpenCamera:DF17_60_RECEPTACLE;
 EndCmp
 
 BeginCmp
-TimeStamp = /5574923E/557492B9;
+TimeStamp = /5574923E/557C3BC1;
 Reference = P3;
 ValeurCmp = CONN_LEFT_BOTTOM;
 IdModule  = OpenCamera:DF17_60_HEADER;
 EndCmp
 
 BeginCmp
-TimeStamp = /5574923E/55749341;
+TimeStamp = /5574923E/557C4BF1;
 Reference = P4;
 ValeurCmp = CONN_RIGHT_BOTTOM;
 IdModule  = OpenCamera:DF17_60_HEADER;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A31EA6;
+Reference = P5;
+ValeurCmp = CONN_01X02;
+IdModule  = OpenCamera:JST-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A5AC38;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A844DC;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A6878F;
+Reference = R3;
+ValeurCmp = 1.74k;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A6645D;
+Reference = R4;
+ValeurCmp = DNP;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A62AB4;
+Reference = R5;
+ValeurCmp = DNP;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A85D4C;
+Reference = R6;
+ValeurCmp = 150;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A6C4CD;
+Reference = R7;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A29834;
+Reference = R8;
+ValeurCmp = DNP;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A528F5;
+Reference = R9;
+ValeurCmp = 1.5k;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A52C6F;
+Reference = R10;
+ValeurCmp = 1.5k;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A6C825;
+Reference = R11;
+ValeurCmp = DNP;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A2A0C3;
+Reference = R12;
+ValeurCmp = DNP;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A6C61F;
+Reference = R13;
+ValeurCmp = DNP;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A2A1C5;
+Reference = R14;
+ValeurCmp = DNP;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A6C71B;
+Reference = R15;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A30FA3;
+Reference = U1;
+ValeurCmp = BQ24230;
+IdModule  = OpenCamera:BQ24230;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A31077;
+Reference = U2;
+ValeurCmp = MAX17043;
+IdModule  = OpenCamera:MAX17043;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A381F9;
+Reference = USB1;
+ValeurCmp = USB_Micro_B_Receptacle;
+IdModule  = OpenCamera:MicroUSB-B-Receptacle;
 EndCmp
 
 EndListe
