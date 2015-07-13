@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-19 BZR 5613)-product   date = 7/12/2015 4:48:31 PM
+Cmp-Mod V01 Created by Cvpcb (2015-04-19 BZR 5613)-product   date = 7/12/2015 9:39:28 PM
 
 BeginCmp
 TimeStamp = /55A354A6;
@@ -180,6 +180,13 @@ TimeStamp = /55A6C71B;
 Reference = R15;
 ValeurCmp = 0;
 IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A327CA;
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = OpenCamera:SWITCH_SPST;
 EndCmp
 
 BeginCmp
