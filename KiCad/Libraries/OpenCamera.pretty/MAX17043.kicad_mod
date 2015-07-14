@@ -1,8 +1,8 @@
-(module MAX17043 (layer F.Cu) (tedit 55A2C3C3)
-  (fp_text reference U** (at 0 2.6) (layer F.SilkS)
+(module MAX17043 (layer F.Cu) (tedit 55A46AD1)
+  (fp_text reference U2 (at 0 2.6) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
-  (fp_text value "SOIC 8" (at 0.01 -1.94) (layer F.SilkS)
+  (fp_text value MAX17043 (at 0.01 -1.94) (layer Eco2.User) hide
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
   (fp_circle (center -2.05 -0.75) (end -1.98 -0.75) (layer F.SilkS) (width 0.2))
