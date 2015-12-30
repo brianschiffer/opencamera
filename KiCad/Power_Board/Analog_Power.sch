@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Power_Board-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -519,7 +519,7 @@ F 3 "" H 3550 4450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Schottky_Small D3
+L D_Schottky_Small-RESCUE-Power_Board D3
 U 1 1 55907FA3
 P 4300 3050
 F 0 "D3" H 4250 3130 50  0000 L CNN
@@ -530,7 +530,7 @@ F 3 "" V 4300 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky_Small D1
+L D_Schottky_Small-RESCUE-Power_Board D1
 U 1 1 559083A5
 P 3800 4150
 F 0 "D1" H 3750 4050 50  0000 L CNN
@@ -1235,7 +1235,7 @@ F 3 "" H 1350 5000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GDSD Q1
+L Q_NMOS_GDSD-RESCUE-Power_Board Q1
 U 1 1 5592DB19
 P 3250 6200
 F 0 "Q1" H 3550 6250 50  0000 R CNN
@@ -1246,7 +1246,7 @@ F 3 "" H 3250 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky_Small D4
+L D_Schottky_Small-RESCUE-Power_Board D4
 U 1 1 5592DF1A
 P 4400 6500
 F 0 "D4" V 4450 6350 50  0000 L CNN
@@ -1268,7 +1268,7 @@ Connection ~ 3350 5900
 Wire Wire Line
 	2150 5900 1700 5900
 $Comp
-L D_Small D2
+L D_Small-RESCUE-Power_Board D2
 U 1 1 5592F334
 P 4100 5900
 F 0 "D2" H 4050 5980 50  0000 L CNN
