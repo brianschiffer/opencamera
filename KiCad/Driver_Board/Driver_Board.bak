@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -30,14 +29,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:OpenCamera
+LIBS:Driver_Board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 2
-Title "Template - Board Name Here"
-Date "Saturday, June 13, 2015"
-Rev "1.1"
+Title "Driver Board"
+Date "2015-12-30"
+Rev "1.0"
 Comp "Open Camera Project"
 Comment1 "Author: Brian Schiffer"
 Comment2 ""

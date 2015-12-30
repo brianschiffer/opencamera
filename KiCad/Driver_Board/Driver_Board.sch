@@ -112,4 +112,120 @@ F61 "R29" B R 2050 3550 60
 F62 "R30" B R 2050 3650 60 
 F63 "GNDA" B R 2050 3750 60 
 $EndSheet
+Wire Wire Line
+	1200 750  1100 750 
+Wire Wire Line
+	1200 850  1100 850 
+Wire Wire Line
+	1200 950  1100 950 
+Wire Wire Line
+	1200 1050 1100 1050
+Wire Wire Line
+	1200 1150 1100 1150
+Wire Wire Line
+	1200 1250 1100 1250
+Wire Wire Line
+	1200 1350 1100 1350
+Wire Wire Line
+	1200 1450 1100 1450
+Wire Wire Line
+	1200 1550 1100 1550
+Wire Wire Line
+	2050 750  2150 750 
+Wire Wire Line
+	2050 850  2150 850 
+Wire Wire Line
+	2050 950  2150 950 
+Wire Wire Line
+	2050 1050 2150 1050
+Wire Wire Line
+	2050 1150 2150 1150
+Wire Wire Line
+	2050 1250 2150 1250
+Wire Wire Line
+	2050 2650 2150 2650
+Wire Wire Line
+	2050 2550 2150 2550
+Wire Wire Line
+	2050 2450 2150 2450
+Wire Wire Line
+	2050 2350 2150 2350
+Wire Wire Line
+	2050 2250 2150 2250
+Wire Wire Line
+	2050 2150 2150 2150
+Wire Wire Line
+	2050 2050 2150 2050
+Wire Wire Line
+	2050 1950 2150 1950
+Wire Wire Line
+	2050 1850 2150 1850
+Wire Wire Line
+	2050 1750 2150 1750
+Wire Wire Line
+	2050 1650 2150 1650
+Wire Wire Line
+	2050 1550 2150 1550
+Wire Wire Line
+	2050 1450 2150 1450
+Wire Wire Line
+	2050 1350 2150 1350
+Text Label 1100 750  2    60   ~ 0
+Vin
+Text Label 1100 850  2    60   ~ 0
++5V
+Text Label 1100 950  2    60   ~ 0
++3.3V
+Text Label 1100 1050 2    60   ~ 0
++1.8V
+Text Label 1100 1150 2    60   ~ 0
+SCLK
+Text Label 1100 1250 2    60   ~ 0
+MOSI
+Text Label 1100 1350 2    60   ~ 0
+MISO
+Text Label 1100 1450 2    60   ~ 0
+CS_DAC1
+Text Label 1100 1550 2    60   ~ 0
+CS_DAC2
+Text Label 2150 750  0    60   ~ 0
++5Va
+Text Label 2150 850  0    60   ~ 0
++15Va
+Text Label 2150 950  0    60   ~ 0
+-15Va
+Text Label 2150 1050 0    60   ~ 0
++50Va
+Text Label 2150 1150 0    60   ~ 0
+V1a
+Text Label 2150 1250 0    60   ~ 0
+V2a
+Text Label 2150 1350 0    60   ~ 0
+V3a
+Text Label 2150 1450 0    60   ~ 0
+V4a
+Text Label 2150 1550 0    60   ~ 0
+V5a
+Text Label 2150 1650 0    60   ~ 0
+V6a
+Text Label 2150 1750 0    60   ~ 0
+V7a
+Text Label 2150 1850 0    60   ~ 0
+V8a
+Text Label 2150 1950 0    60   ~ 0
+V9a
+Text Label 2150 2050 0    60   ~ 0
+V10a
+Text Label 2150 2150 0    60   ~ 0
+V11a
+Text Label 2150 2250 0    60   ~ 0
+V12a
+Text Label 2150 2350 0    60   ~ 0
+V13a
+Text Label 2150 2450 0    60   ~ 0
+V14a
+Text Label 2150 2550 0    60   ~ 0
+V15a
+Text Label 2150 2650 0    60   ~ 0
+V16a
 $EndSCHEMATC
